@@ -12,5 +12,3 @@ module "security_groups" {
   source  = "./security_groups.tf"
   vpc_id  = module.vpc.vpc_id
 }
-
-# Aquí puedes seguir agregando los recursos adicionales
